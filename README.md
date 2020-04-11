@@ -1,3 +1,2 @@
-# Hometasks
-Цикл домашніх завдань з основ програмування.
-Цей опис буде поповнюватись по ходу виконання роботи.
+## Project name: Hometasks
+## Description: cycle of hometasks from basics of programming, which issue is to collect and analyse data about tweets
