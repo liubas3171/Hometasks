@@ -407,15 +407,3 @@ class TweetAnalyser:
             i += 1
         with open(path, 'w', encoding='utf-8') as file:
             json.dump(res, file, ensure_ascii=False, indent=4)
-
-# a = TweetAnalyser('D:/UCU/Програмування/2 семестр/old_data_ukraine_copy/METADATA.json')
-# a.add_all()
-# # x = a.give_tweets()
-# # print(len(x))
-# # a.collect_retweet(False, False)
-# # a.set_boundaries(to_date='202003050016')
-# a.manage_what_live(['text', "created_at", 'retweeted_status:quoted_status:extended_tweet:entities:hashtags',
-#                     'retweeted_status:quoted_status:extended_tweet:entities:urls'])
-# print(a)
-
-# a.save('D:/UCU/Програмування/2 семестр/results.json')
