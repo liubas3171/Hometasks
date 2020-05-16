@@ -1,4 +1,9 @@
-'''TODO documentation'''
+'''
+Module with class TweetResearcher, which was created to collec
+tweets by keyword with usage of Twitter API.
+There is used module TwitterAPI from third-party developers.
+To install it, enter pip install TwitterAPI to cmd.
+'''
 
 import sys
 import time
@@ -161,14 +166,3 @@ class TweetResearcher:
             except Exception as exception:
                 print('Smt go wrong. Exception: {}'.format(exception))
                 exit()
-
-a = TweetResearcher('standart', 'D:/UCU/Програмування/2 семестр/testing_2')
-a.add_keyword('влада')
-a.add_api_keys(('v2zcdgyUGN8CR8dJTHlk26D3E',
-                 'ZCjHarANfdb3j8q6hIeSdBL1QuVEwYDlz0386bdnuLH34lTdsJ',
-                 '1230838871665061888-lo1Cmt7XmhWxBSLrcETMeAJfX7Osc5',
-                 'TN6NxEkBybNhTJpWFGIjJ5snGfeSFLqCbDQhNGP68CcIs'))
-a.do_research('D:/UCU/Програмування/2 семестр/testing_2/TWEET_METADATA.json')
-# # a.do_research('D:/UCU/Програмування/2 семестр/testing/TWEET_METADATA.json')
-# a.do_research('D:/UCU/Програмування/2 семестр/testing_premium/TWEET_METADATA.json')
-# # TWEET_METADATA
