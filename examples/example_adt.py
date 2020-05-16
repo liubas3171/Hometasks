@@ -1,6 +1,6 @@
 '''Module for representing how to work with TweetAnalyser'''
 
-import TweetAnalyser
+from modules import TweetAnalyser
 
 analyser = TweetAnalyser('Hometasks/examples/TWEET_METADATA.json')
 # collecting all retweets
