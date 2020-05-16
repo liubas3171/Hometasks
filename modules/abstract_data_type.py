@@ -4,7 +4,7 @@ of tweets which are represented in json format
 '''
 
 import json
-from home_tasks.hometask3.linked_list import LinkedList
+from linked_list import LinkedList
 
 
 class TweetAnalyser:
