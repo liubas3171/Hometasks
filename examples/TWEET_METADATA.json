@@ -1,0 +1,8 @@
+{
+  "list_names": ["example_of_usage_api.json"],
+  "params": {
+    "q": "government",
+    "count": "100"
+  },
+  "type_api": "standart"
+}
