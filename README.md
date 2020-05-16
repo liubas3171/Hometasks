@@ -1,5 +1,6 @@
 ## Project name: Hometasks
-## Description: cycle of hometasks from basics of programming, which issue is to collect and analyse data about tweets
+## Description:
+Cycle of hometasks from basics of programming, which issue is to collect and analyse data about tweets
 ## Table of Contents:
 ## Installation:
 ## Usage:
