@@ -104,6 +104,7 @@ class TweetResearcher:
         if not self._api:
             raise Exception('Enter api keys')
         if path_metadata:
+            self._path = path_metadata[: path_metadata.rindex('/')]
             with open(path_metadata, 'r', encoding='utf-8') as file:
                 metadata = json.load(file)
             self._params = metadata['params']
