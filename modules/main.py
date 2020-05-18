@@ -1,8 +1,8 @@
 '''Main program for doing research'''
 
 import json
-from home_tasks.hometask3.abstract_data_type import TweetAnalyser
-from home_tasks.hometask3.tweet_researcher import TweetResearcher
+from abstract_data_type import TweetAnalyser
+from tweet_researcher import TweetResearcher
 
 
 def accept_api_keys():
