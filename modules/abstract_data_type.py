@@ -262,7 +262,7 @@ class TweetAnalyser:
                         for word in tweet['extended_tweet']['entities']['hashtags']:
                             if word['text'] == hashtag and tweet not in res:
                                 res.add(tweet)
-                if tweet['entities']['hashtags']:
+                if 'entities' in tweet and tweet['entities']['hashtags']:
                     if not hashtag and tweet not in res:
                         res.add(tweet)
                         continue
