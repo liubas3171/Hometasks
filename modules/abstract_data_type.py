@@ -188,8 +188,13 @@ class TweetAnalyser:
                 if 'quoted_status' in tweet and \
                         tweet['quoted_status']['retweet_count'] > tweet['retweet_count']:
                     tweet = tweet['quoted_status']
-                if tweet in res:
-                    continue
+                # checking if there is this tweet in results
+                check = 0
+                for el in res:
+                    if tweet['id'] == el['id']:
+                        check += 1
+                if check == 0:
+                    res.add_sorted(tweet, 'retweet_count')
                 res.add_sorted(tweet, 'retweet_count')
                 if len(res) > num_tweets:
                     res.delete(num_tweets)
@@ -201,8 +206,13 @@ class TweetAnalyser:
                 if 'quoted_status' in tweet and \
                         tweet['quoted_status']['retweet_count'] > tweet['retweet_count']:
                     tweet = tweet['quoted_status']
-                if tweet in res:
-                    continue
+                # checking if there is this tweet in results
+                check = 0
+                for el in res:
+                    if tweet['id'] == el['id']:
+                        check += 1
+                if check == 0:
+                    res.add_sorted(tweet, 'retweet_count')
                 res.add_sorted(tweet, 'retweet_count')
                 if len(res) > num_tweets:
                     res.delete(num_tweets)
