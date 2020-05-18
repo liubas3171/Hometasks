@@ -173,7 +173,7 @@ class TweetAnalyser:
                 yield tweet
 
     def collect_some_most(self, num_tweets, there=True):
-        '''(int, str, bool) -> None
+        '''(int, bool) -> None
         Put to TweetAnalyser chosen number of most retweeted tweets.
         If tweet is retweet of post that was made earlier, this post will be taken into account.
         If param there = True, method considers tweets that have been added to TweetAnalyser.
