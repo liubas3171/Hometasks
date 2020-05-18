@@ -5,6 +5,7 @@ Cycle of hometasks from basics of programming, which issue is to collect and ana
 ## Installation:
 ## Usage:
 ## Contributing:
+Currently, I am a sole contributor of this repository.
 ## Credits:
 * Liubas Nazar, UCU, 2020
 ## Licence:
