@@ -1,0 +1,7 @@
+tweet\_researcher module
+========================
+
+.. automodule:: tweet_researcher
+   :members:
+   :undoc-members:
+   :show-inheritance:

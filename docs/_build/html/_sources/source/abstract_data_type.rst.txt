@@ -1,0 +1,7 @@
+abstract\_data\_type module
+===========================
+
+.. automodule:: abstract_data_type
+   :members:
+   :undoc-members:
+   :show-inheritance:
