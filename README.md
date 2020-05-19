@@ -14,6 +14,7 @@ When you collected tweets, you can make some analysis with them, like:
 * find all tweets from user that was registered on given location
 * find frequency of tweets per minute
 * etc
+
 More you can read at [Wiki](https://github.com/liubas3171/Hometasks/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%94-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F-%E2%84%962), but it have been written by Ukrainian language.
 
 It is command-line program.
