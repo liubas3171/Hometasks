@@ -45,6 +45,7 @@ From the command line:
 $ pip install TwitterAPI
 $ git clone https://github.com/liubas3171/Hometasks.git
 ```
+Run Hometasks/modules/main.py and read instructions.
 
 ## Usage:
 ### Preconditions
