@@ -1,4 +1,4 @@
-## Project name: Hometasks
+## Project name: TwitterAnalyser
 ## Description:
 [Video Previev](https://github.com/liubas3171/Hometasks/blob/master/how_to_use.avi)
 
